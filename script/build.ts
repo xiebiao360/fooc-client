@@ -1,4 +1,4 @@
-import { join } from 'path'
+import { join } from 'path';
 import { spawn, ChildProcess } from 'child_process';
 import { watch, rollup, OutputOptions } from 'rollup';
 import minimist from 'minimist';
@@ -39,6 +39,7 @@ if (argv.watch) {
         if (ev.code === 'END') {
           if (child) child.kill();
           child = spawn(electron as any, [join(__dirname, `../${main}`)], { stdio: 'inherit' });
+          child.on('exit', () => process.exit(0));
         } else if (ev.code === 'ERROR') {
           console.log(ev.error);
         }
