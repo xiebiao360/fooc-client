@@ -52,6 +52,7 @@
     "@types/minimist": "^1.2.1",
     "@types/wait-on": "^5.2.0",
     "@vue/compiler-sfc": "^3.0.4",
+    "ant-design-vue": "^2.0.0-rc.7",
     "chalk": "^4.1.0",
     "concurrently": "^5.3.0",
     "electron": "^11.1.1",
@@ -67,6 +68,7 @@
     "vite": "^1.0.0-rc.13",
     "vue": "^3.0.4",
     "vue-router": "^4.0.2",
+    "vuex": "^4.0.0-rc.2",
     "wait-on": "^5.2.1"
   },
   "keywords": [
