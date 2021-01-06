@@ -1,0 +1,42 @@
+{
+  "core": [
+    {
+      "name": "home",
+      "title": "首页",
+      "path": "/home",
+      "icon": "home",
+      "activeIcon": "home-active"
+    },
+    {
+      "name": "list",
+      "title": "清单",
+      "path": "/list",
+      "icon": "list",
+      "activeIcon": "list-active"
+    },
+    {
+      "name": "note",
+      "title": "笔记",
+      "path": "/note",
+      "icon": "notebook",
+      "activeIcon": "notebook-active"
+    }
+  ],
+  "custom": [],
+  "sys": [
+    {
+      "name": "user",
+      "title": "用户",
+      "path": "/user",
+      "icon": "user",
+      "activeIcon": "user-active"
+    },
+    {
+      "name": "setting",
+      "title": "设置",
+      "path": "/setting",
+      "icon": "setting",
+      "activeIcon": "setting-active"
+    }
+  ]
+}
